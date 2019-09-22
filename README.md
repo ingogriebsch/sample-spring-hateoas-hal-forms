@@ -14,7 +14,7 @@ You can access a HAL based browser through [browser/browser.html#/api](browser/b
 ## Additiomal resources
 You should have a look at the following resources if you are interested in the topic and would like to get a better understanding about the pros and cons of using/doing HATEOAS.
 
-*   [HAL-FORMS](https://rwcbook.github.io/hal-forms/){:target="_blank"}
+*   [HAL-FORMS](https://rwcbook.github.io/hal-forms/)
 *   [REST with Hypermedia - Hot or Not?](https://reflectoring.io/rest-hypermedia/)
 
 ## Used frameworks
