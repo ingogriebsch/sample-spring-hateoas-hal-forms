@@ -104,19 +104,6 @@
         </dependency>
     </dependencies>
 
-    <pluginRepositories>
-        <pluginRepository> 
-            <id>plugin.repository.spring.milestone</id> 
-            <name>Spring Plugin Milestone Repository</name> 
-            <url>https://repo.spring.io/milestone</url> 
-        </pluginRepository>
-        <pluginRepository> 
-            <id>plugin.repository.spring.snapshot</id> 
-            <name>Spring Plugin Snapshot Repository</name> 
-            <url>https://repo.spring.io/snapshot</url> 
-        </pluginRepository>
-    </pluginRepositories>
-
     <repositories>
         <repository> 
             <id>repository.spring.milestone</id> 
@@ -129,6 +116,18 @@
             <url>https://repo.spring.io/snapshot</url> 
         </repository>
     </repositories>
+    <pluginRepositories>
+        <pluginRepository> 
+            <id>plugin.repository.spring.milestone</id> 
+            <name>Spring Plugin Milestone Repository</name> 
+            <url>https://repo.spring.io/milestone</url> 
+        </pluginRepository>
+        <pluginRepository> 
+            <id>plugin.repository.spring.snapshot</id> 
+            <name>Spring Plugin Snapshot Repository</name> 
+            <url>https://repo.spring.io/snapshot</url> 
+        </pluginRepository>
+    </pluginRepositories>
 
     <build>
         <plugins>
