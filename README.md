@@ -7,9 +7,11 @@
 
 This sample shows you how to enhance a REST API with Spring HATEOAS providing the HAL-FORMS media type.
 
-If you start the Spring Boot application this page is available through [/](/). \
-You can access the root of the API through [/api](/api). \
-You can access a HAL based browser through [browser/browser.html#/api](browser/browser.html#/api).
+If you start the Spring Boot application you can access
+
+*   this page through [/](/).
+*   the root of the API through [/api](/api). \
+*   a HAL based browser through [browser/browser.html#/api](browser/browser.html#/api).
 
 ## Additiomal resources
 You should have a look at the following resources if you are interested in the topic and would like to get a better understanding about the pros and cons of using/doing HATEOAS.
