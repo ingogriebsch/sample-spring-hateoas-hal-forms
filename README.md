@@ -10,9 +10,9 @@ This sample shows you how to enhance a REST API with Spring HATEOAS providing th
 
 If you start the Spring Boot application you can access
 
-*   this page through [/](/).
-*   the root of the API through [/api](/api). \
-*   a HAL based browser through [browser/browser.html#/api](browser/browser.html#/api).
+*   this page through [http://localhost:8080](http://localhost:8080/).
+*   the root of the API through [http://localhost:8080/api](http://localhost:8080/api).
+*   a HAL based browser through [http://localhost:8080/browser/browser.html#/api](http://localhost:8080/browser/browser.html#/api).
 
 ## Additiomal resources
 You should have a look at the following resources if you are interested in the topic and would like to get a better understanding about the pros and cons of using/doing HATEOAS.
