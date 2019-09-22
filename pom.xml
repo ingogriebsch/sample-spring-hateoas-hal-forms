@@ -104,6 +104,19 @@
         </dependency>
     </dependencies>
 
+    <repositories>
+        <repository> 
+            <id>repository.spring.milestone</id> 
+            <name>Spring Milestone Repository</name> 
+            <url>https://repo.spring.io/milestone</url> 
+        </repository>
+        <repository> 
+            <id>repository.spring.snapshot</id> 
+            <name>Spring Snapshot Repository</name> 
+            <url>https://repo.spring.io/snapshot</url> 
+        </repository>
+    </repositories>
+
     <build>
         <plugins>
             <plugin><!-- http://www.mojohaus.org/tidy-maven-plugin/ -->
@@ -247,19 +260,6 @@
                     <value>true</value>
                 </property>
             </activation>
-            <repositories>
-                <repository> 
-                    <id>repository.spring.milestone</id> 
-                    <name>Spring Milestone Repository</name> 
-                    <url>https://repo.spring.io/milestone</url> 
-                </repository>
-                <repository> 
-                    <id>repository.spring.snapshot</id> 
-                    <name>Spring Snapshot Repository</name> 
-                    <url>https://repo.spring.io/snapshot</url> 
-                </repository>
-            </repositories>
-            
             <build>
                 <plugins>
                     <plugin><!-- https://www.eclemma.org/jacoco/trunk/doc/maven.html -->
