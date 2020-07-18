@@ -151,7 +151,7 @@
                 <version>1.2.0</version>
                 <configuration>
                     <staticGroups>java.,javax.,*</staticGroups>
-                    <groups>java.,javax.,com.,org.,*</groups>
+                    <groups>java.,javax.,*</groups>
                 </configuration>
                 <executions>
                     <execution>
@@ -247,7 +247,6 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <executions>
                     <execution>
-                        <id>default-build-info</id>
                         <goals>
                             <goal>build-info</goal>
                         </goals>
