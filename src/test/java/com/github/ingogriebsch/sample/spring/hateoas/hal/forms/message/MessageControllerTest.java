@@ -47,7 +47,6 @@ import java.util.List;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.ingogriebsch.sample.spring.hateoas.hal.forms.HateoasConfiguration;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;

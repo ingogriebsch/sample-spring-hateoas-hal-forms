@@ -29,7 +29,8 @@ import static org.springframework.web.util.UriComponentsBuilder.fromUri;
 import java.util.List;
 
 import com.github.ingogriebsch.sample.spring.hateoas.hal.forms.inbox.InboxController;
-
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 import org.springframework.data.web.HateoasPageableHandlerMethodArgumentResolver;
 import org.springframework.hateoas.Link;
 import org.springframework.hateoas.RepresentationModel;
@@ -39,9 +40,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
-
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
 @RestController

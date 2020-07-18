@@ -23,11 +23,9 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 import com.github.ingogriebsch.sample.spring.hateoas.hal.forms.inbox.InboxController;
-
+import lombok.NonNull;
 import org.springframework.hateoas.Link;
 import org.springframework.hateoas.server.RepresentationModelProcessor;
-
-import lombok.NonNull;
 
 public class MessageModelProcessor implements RepresentationModelProcessor<MessageModel> {
 

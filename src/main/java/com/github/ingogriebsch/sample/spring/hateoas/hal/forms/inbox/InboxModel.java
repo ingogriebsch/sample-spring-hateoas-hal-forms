@@ -19,12 +19,11 @@
  */
 package com.github.ingogriebsch.sample.spring.hateoas.hal.forms.inbox;
 
-import org.springframework.hateoas.RepresentationModel;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import org.springframework.hateoas.RepresentationModel;
 
 @AllArgsConstructor
 @Data

@@ -25,12 +25,11 @@ import static lombok.AccessLevel.PRIVATE;
 
 import java.util.List;
 
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
-
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor(access = PRIVATE)
 public final class PageUtils {

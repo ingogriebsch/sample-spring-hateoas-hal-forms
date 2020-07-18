@@ -30,13 +30,11 @@ import com.github.ingogriebsch.sample.spring.hateoas.hal.forms.inbox.InboxServic
 import com.github.ingogriebsch.sample.spring.hateoas.hal.forms.message.Message;
 import com.github.ingogriebsch.sample.spring.hateoas.hal.forms.message.MessageInput;
 import com.github.ingogriebsch.sample.spring.hateoas.hal.forms.message.MessageService;
-
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
-
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
 @Component
 @RequiredArgsConstructor

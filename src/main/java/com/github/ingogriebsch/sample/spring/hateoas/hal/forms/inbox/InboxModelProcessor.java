@@ -25,16 +25,14 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 import static org.springframework.web.util.UriComponentsBuilder.fromUri;
 
 import com.github.ingogriebsch.sample.spring.hateoas.hal.forms.message.MessageController;
-
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 import org.springframework.data.web.HateoasPageableHandlerMethodArgumentResolver;
 import org.springframework.hateoas.Link;
 import org.springframework.hateoas.TemplateVariables;
 import org.springframework.hateoas.UriTemplate;
 import org.springframework.hateoas.server.RepresentationModelProcessor;
 import org.springframework.web.util.UriComponentsBuilder;
-
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
 public class InboxModelProcessor implements RepresentationModelProcessor<InboxModel> {

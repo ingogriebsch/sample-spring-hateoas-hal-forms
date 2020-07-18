@@ -30,11 +30,10 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 
+import lombok.NonNull;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-
-import lombok.NonNull;
 
 @Service
 public class InboxService {
