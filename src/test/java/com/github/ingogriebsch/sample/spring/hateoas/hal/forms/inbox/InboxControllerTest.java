@@ -32,8 +32,8 @@ import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.reset;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.verifyNoInteractions;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
-import static org.mockito.Mockito.verifyZeroInteractions;
 import static org.springframework.data.domain.PageRequest.of;
 import static org.springframework.hateoas.MediaTypes.HAL_FORMS_JSON;
 import static org.springframework.http.MediaType.APPLICATION_JSON;
@@ -182,7 +182,7 @@ public class InboxControllerTest {
 
             actions.andExpect(status().isBadRequest());
 
-            verifyZeroInteractions(inboxService);
+            verifyNoInteractions(inboxService);
         }
     }
 
